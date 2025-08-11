@@ -6,6 +6,7 @@ import InputFocus from './App.jsx'
 import TabSwitcher from './components/TabSwitcher.jsx'
 
 import FormValidation from './components/FormValidation.jsx'
+import Collapsed from './components/Collapsed.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')).render(
     <InputFocus/> */}
     <TabSwitcher/>
     <FormValidation/>
+    <Collapsed/>
   </StrictMode>,
 )
