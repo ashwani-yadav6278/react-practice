@@ -7,6 +7,7 @@ import TabSwitcher from './components/TabSwitcher.jsx'
 
 import FormValidation from './components/FormValidation.jsx'
 import Collapsed from './components/Collapsed.jsx'
+import ProgressBar from './components/Progressbar.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,5 +16,6 @@ createRoot(document.getElementById('root')).render(
     <TabSwitcher/>
     <FormValidation/>
     <Collapsed/>
+    <ProgressBar/>
   </StrictMode>,
 )
